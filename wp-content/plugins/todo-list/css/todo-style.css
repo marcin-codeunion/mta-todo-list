@@ -1,0 +1,42 @@
+.todo__header 
+{
+    display:block;
+    max-width:60%;
+    margin:0 auto;
+    padding:2rem;
+}
+.todo__list
+{
+    display:grid;
+    max-width: 60%;
+    margin: 0 auto;
+}
+.todo__item
+{
+    font-size: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.todo__item--finished
+{
+    background-color: #666;
+}
+.todo__itemName
+{
+    width: 40vw;
+}
+.todo__create
+{
+    display:block;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    
+}
+.todo__createName
+{
+    width: 35vw;
+}
